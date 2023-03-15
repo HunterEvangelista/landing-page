@@ -1,7 +1,6 @@
 
 body {
     display: flex;
-    border: 1px solid black;
     justify-content: space-around;
     align-items: stretch;
     flex-direction: column;
@@ -72,6 +71,7 @@ a {
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
+    padding-bottom: 50px;
 }
 
 button {
@@ -84,7 +84,8 @@ button {
     font-size: 14px;
     font-weight: 300;
     background-color: #3882F6;
-    color: white
+    color: white;
+    margin-top: 1px;
 }
 
 .signup-img-holder {
@@ -106,14 +107,134 @@ button {
     margin-right: 250px;
 }
 
-h2 {
+.h2 {
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     color: #F9FAF8;
 }
 
 button.signup {
     align-self: baseline;
     margin-bottom: 5px;
+}
+
+.body-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 75px
+}
+
+.img-holders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8px;
+    gap: 50px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 100px;
+}
+
+.sub-container img {
+    width: 75px;
+    height: auto;
+    flex: 2;
+    padding: 1px;
+}
+
+.img-header {
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.body-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-left: -10px;
+    margin-right: -10px;
+    flex-direction: row;
+}
+
+.body-quote p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    flex-direction: column;
+    min-width: 300px;
+
+}
+
+.body-quote p {
+    align-items: flex-end;
+}
+
+.body-quote span {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.body-call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}   
+
+.call-to-action button {
+    border: 1px solid #E5E7EB;
+}
+
+.action-text {
+    flex-wrap: wrap;
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.action-text h5 {
+    margin-bottom: 0px
+}
+
+/* footer  */
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    min-height: 52px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
